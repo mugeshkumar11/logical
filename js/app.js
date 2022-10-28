@@ -96,14 +96,14 @@
 
 //7 divisible number
 
-var divide = parseInt(prompt("entervalue"));
+// var divide = parseInt(prompt("entervalue"));
 
 
-for(let i=0; i<divide; i++){
-  if(i%2==0){
-    console.log(i);
-  }
-}
+// for(let i=0; i<divide; i++){
+//   if(i%2==0){
+//     console.log(i);
+//   }
+// }
 
 // rever number to word
 
@@ -137,4 +137,21 @@ for(let i=0; i<divide; i++){
 // input = ((input-rem)/10)
 
 // };
+
+
+//print  for  number in pattern
+// var range = parseInt(prompt(""));
+
+
+//   for(var i=0;i<=range;i++){
+//     var str=" ";
+//     for(var j=0;j<=i;j++){
+    
+//       str += "*";
+//     }
+//     console.log(str);
+//   }
+
+//
+
 
