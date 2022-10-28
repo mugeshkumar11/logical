@@ -140,18 +140,18 @@
 
 
 //print  for  number in pattern
-// var range = parseInt(prompt(""));
+var range = parseInt(prompt(""));
 
 
-//   for(var i=0;i<=range;i++){
-//     var str=" ";
-//     for(var j=0;j<=i;j++){
+  for(var i=0;i<=range;i++){
+    var str=" ";
+    for(var j=0;j<=i;j++){
     
-//       str += "*";
-//     }
-//     console.log(str);
-//   }
+      str += "*";
+    }
+    console.log(str);
+  }
 
-//
+
 
 
