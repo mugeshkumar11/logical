@@ -140,18 +140,34 @@
 
 
 //print  for  number in pattern
-var range = parseInt(prompt(""));
+// var range = parseInt(prompt(""));
 
 
-  for(var i=0;i<=range;i++){
-    var str=" ";
-    for(var j=0;j<=i;j++){
+//   for(var i=0;i<=range;i++){
+//     var str=" ";
+//     for(var j=0;j<=i;j++){
     
-      str += "*";
-    }
-    console.log(str);
+//       str += "*";
+//     }
+//     console.log(str);
+//   }
+
+
+var input = 153;
+var sum = 0;
+var temp =input;
+while(input >0){
+
+  let rem = (input % 10);
+  let multi =(rem *rem *rem);
+    sum+=multi
+  input = (input-rem)/10;
+
+}
+console.log(sum);
+
+if(temp == sum){
+  console.log("its amstrong")
+  }else{
+    console.log("its not amstrong")
   }
-
-
-
-
