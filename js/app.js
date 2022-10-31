@@ -152,22 +152,59 @@
 //     console.log(str);
 //   }
 
+// AMSTRONG NOT AMSTRONG
+// var input = 153;
+// var sum = 0;
+// var temp =input;
+// while(input >0){
 
-var input = 153;
-var sum = 0;
-var temp =input;
-while(input >0){
+//   let rem = (input % 10);
+//   let multi =(rem *rem *rem);
+//     sum+=multi
+//   input = (input-rem)/10;
 
-  let rem = (input % 10);
-  let multi =(rem *rem *rem);
-    sum+=multi
-  input = (input-rem)/10;
+// }
+// console.log(sum);
 
+// if(temp == sum){
+//   console.log("its amstrong")
+//   }else{
+//     console.log("its not amstrong")
+//   }
+
+
+//all digit used amstrong 
+
+// var input = 54748;
+// var count  = 0;
+// var result = input;
+//  var sum = 0;
+//  var result2 = result
+// while(input> 0){
+//   let rem = input % 10;
+//    input = (input-rem)/10;
+//    count+=1;
+// }
+
+// while(result>0){
+//   let rem = result % 10;
+//   result = (result-rem)/10;
+//   sum += (rem**count) 
+// }
+// if(sum==result2){
+//   console.log("its amstrong")
+//     }else{
+//      console.log("its not amstrong")
+//   }
+// console.log(sum);
+// console.log(count);
+
+// factorial number 
+
+var input = 5;
+var sum=1;
+for(let i=1; i<=input; i++){
+      sum*=i
+      
 }
-console.log(sum);
-
-if(temp == sum){
-  console.log("its amstrong")
-  }else{
-    console.log("its not amstrong")
-  }
+ console.log(sum);
