@@ -201,10 +201,43 @@
 
 // factorial number 
 
-var input = 5;
-var sum=1;
-for(let i=1; i<=input; i++){
-      sum*=i
+// var input = 5;
+// var sum=1;
+// for(let i=1; i<=input; i++){
+//       sum*=i
       
+// }
+//  console.log(sum);
+
+// fibonaci number
+
+// var input = 8;
+// var sum = 0;
+// var n1=0;
+// var n2=1;
+// console.log(n1,n2);
+// for(let i=0; i<=input; i++){
+//   sum = (n1+n2)
+//   n1 = n2
+//   n2= sum
+//   console.log(sum);
+// }
+
+//prime number
+
+var input = 15;
+var number = true;
+if (input===1){
+  console.log("not a odd and even")
+}else if(input>1){
+for(let i=2; i<input; i++){
+  if(input % i === 0){
+    number = false;
+  }
 }
- console.log(sum);
+}
+if(number===true){
+  console.log("its a prime number")
+}else{
+  console.log("its not prime number");
+}
