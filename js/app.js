@@ -308,3 +308,39 @@
 // }else{
 //   console.log(input,input2);
 // }
+
+
+// //palindrome 
+
+// var input = 12321;
+// var sum=0;
+// var num = input
+// while(input>0){
+//   let value = (input%10);
+//   input =((input-value)/10) 
+//   sum = sum*10+value
+// }
+// console.log(sum);
+// if(num == sum){
+//   console.log("this is palindrome");
+// }else{
+//   console.log("this is not palindrome");
+// }
+
+
+// add and even number find and add
+
+var input = 6789;
+var sum = 0;
+while(input>0){
+ rem = input%10;
+  input = (input-rem)/10;
+
+  if(rem%2==0){
+    sum += rem;
+   
+  }
+  
+}
+
+console.log(sum);
