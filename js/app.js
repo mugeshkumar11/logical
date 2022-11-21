@@ -345,18 +345,47 @@
 
 // console.log(sum);
 
+// odd number find and add
 
-var input = 6789;
-var sum = 0;
-while(input>0){
- rem = input%10;
-  input = (input-rem)/10;
 
-  if(rem%2!=0){
-    sum += rem;
+// var input = 6789;
+// var sum = 0;
+// while(input>0){
+//  rem = input%10;
+//   input = (input-rem)/10;
+
+//   if(rem%2!=0){
+//     sum += rem;
    
-  }
+//   }
   
-}
+// }
 
-console.log(sum);
+// console.log(sum);
+
+//string method
+
+//length
+// let text = "Apple, Banana, Kiwi";
+// let part = text.length;
+// console.log(part);
+
+
+//slice
+// let text = "Apple Banana Kiwi";
+// let part = text.slice(3,5,);
+//  console.log(part);
+
+//
+// let text = "Apple, Banana, Kiwi";
+// let part = text.slice(-12, -6);
+//  console.log(part);
+
+
+/// REGARDS METHOD USED STRING
+var input = "kmugesh11199@gmail.com";
+console.log(input.match(/[a-zA-Z]+/g).join(""),input.match(/\W/g).join(""),input.match(/\d/g).join(""));
+
+
+//console.log(input.);
+
