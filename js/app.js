@@ -383,9 +383,24 @@
 
 
 /// REGARDS METHOD USED STRING
-var input = "kmugesh11199@gmail.com";
-console.log(input.match(/[a-zA-Z]+/g).join(""),input.match(/\W/g).join(""),input.match(/\d/g).join(""));
+// var input = "kmugesh11199@gmail.com";
+// console.log(input.match(/[a-zA-Z]+/g).join(""),input.match(/\W/g).join(""),input.match(/\d/g).join(""));
 
 
 //console.log(input.);
+
+
+// let email = "ravanth39840@gmail.com";
+
+// let a = email.replace(/[^0-9]/g),
+// (email.replace/[^A-Za-z0-9]/g);
+// console.log(a);
+// let b =a.split("");
+// console.log(b);
+
+// for (let i = 0; i < b.length; i++) {
+//     if (b[i] % 2 === 0) {
+//         console.log(b[i]);
+//     }
+// }
 
